@@ -1,7 +1,7 @@
 {
     "name": "json-rpc",
     "preferGlobal": false,
-    "version": "0.1.6",
+    "version": "0.1.7",
     "author": "Marcel Rieger <marcelrieger@me.com>",
     "description": "A simple and lightweight NodeJs JSON-RPC 2.0 implementation including object wrapping.",
     "main": "lib/json-rpc.min.js",
@@ -27,5 +27,8 @@
             "type": "GPL",
             "url": "http://www.opensource.org/licenses/gpl-2.0"
         }
-    ]
+    ],
+    "dependencies": {
+        "through": "2.3.4"
+    }
 }
